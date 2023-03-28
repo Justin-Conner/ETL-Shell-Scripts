@@ -3,11 +3,11 @@ a library of ETL scripts
 ***********************************************************************************************************************************************************************
 data warehousing concepts and dimensional modeling techniques
 ***********************************************************************************************************************************************************************
-Data warehousing is a technique used to collect, store, and manage data from various sources in a centralized repository. It involves the process of extracting data from various operational systems, transforming it into a consistent format, and loading it into a data warehouse. The data warehouse is designed to support the decision-making process of an organization by providing easy access to a large volume of structured data.
+'Data warehousing' is a technique used to collect, store, and manage data from various sources in a centralized repository. It involves the process of extracting data from various operational systems, transforming it into a consistent format, and loading it into a data warehouse. The data warehouse is designed to support the decision-making process of an organization by providing easy access to a large volume of structured data.
 
-Dimensional modeling is a technique used in data warehousing to organize data in a way that makes it easier to analyze and query. The main concept behind dimensional modeling is to organize data into facts and dimensions. Facts represent the numerical data that can be analyzed, and dimensions provide context to the facts. For example, a fact table might contain sales data, and the dimensions might include time, product, and location.
+'Dimensional modelin'g is a technique used in data warehousing to organize data in a way that makes it easier to analyze and query. The main concept behind dimensional modeling is to organize data into facts and dimensions. Facts represent the numerical data that can be analyzed, and dimensions provide context to the facts. For example, a fact table might contain sales data, and the dimensions might include time, product, and location.
 
-The dimensional modeling technique involves creating a star schema or a snowflake schema. In a star schema, the fact table is at the center, and the dimension tables are connected to it. Each dimension table is connected to the fact table through a foreign key. In a snowflake schema, the dimension tables are normalized into multiple related tables, creating a more complex schema.
+The dimensional modeling technique involves creating a star schema or a snowflake schema. In a 'star schema', the fact table is at the center, and the dimension tables are connected to it. Each dimension table is connected to the fact table through a foreign key. In a 'snowflake schema', the dimension tables are normalized into multiple related tables, creating a more complex schema.
 
 Dimensional modeling provides a number of benefits, including:
 
@@ -25,7 +25,7 @@ SQL and database query optimization techniques
 ***********************************************************************************************************************************************************************
 SQL and database query optimization techniques are used to improve the performance of database queries. The main goal of query optimization is to generate an execution plan for a query that will return the desired results as quickly and efficiently as possible.
 
-One important technique used in query optimization is index optimization. An index is a data structure used to improve the speed of data retrieval operations. By properly indexing tables, queries can run much faster. Another technique is query rewriting, which involves modifying a query to make it more efficient by changing its structure or using different operators.
+One important technique used in query optimization is 'index optimization'. An index is a data structure used to improve the speed of data retrieval operations. By properly indexing tables, queries can run much faster. Another technique is query rewriting, which involves modifying a query to make it more efficient by changing its structure or using different operators.
 
 There are also several database-specific optimization techniques. For example, in Oracle databases, the optimizer uses cost-based optimization to determine the most efficient execution plan for a query. In SQL Server, the query optimizer uses a variety of optimization techniques, including cost-based optimization, rule-based optimization, and heuristics.
 
@@ -85,7 +85,7 @@ In addition to shell scripts, other programming languages can also be used to au
 ***********************************************************************************************************************************************************************
 data integration methods and technologies, such as RESTful APIs, XML, or JSON
 ***********************************************************************************************************************************************************************
-Data integration is the process of combining data from different sources into a unified view. There are various methods and technologies used for data integration, including RESTful APIs, XML, and JSON.
+'Data integration' is the process of combining data from different sources into a unified view. There are various methods and technologies used for data integration, including RESTful APIs, XML, and JSON.
 
 RESTful APIs (Representational State Transfer) are a set of constraints and principles used for creating web services. RESTful APIs enable data integration between different systems through a set of standardized HTTP methods, such as GET, POST, PUT, and DELETE. With RESTful APIs, data can be transferred between systems in a standardized format, making it easy to integrate data from different sources.
 
